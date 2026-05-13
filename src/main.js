@@ -27,3 +27,26 @@ buttonExercise2Invalid.addEventListener('click', () => {
 
     resultExercise2.textContent = result;
 });
+
+//VAMOS CON EL EJERCICIO 3 GOGOGO
+const buttonExercise3 = document.querySelector('#btn-exercise-3');
+const resultExercise3 = document.querySelector('#result-3');
+
+buttonExercise3.addEventListener('click', () => {
+    const input = [1, 2, 3, 4];
+    const numberToAdd = 5;
+    const result = addNumberToArray(input, numberToAdd);
+
+    resultExercise3.textContent = JSON.stringify(result, null, 2);
+});
+
+//VAMOS CON EL EJERCICIO 4
+const buttonExercise4 = document.querySelector('#btn-exercise-4');
+const resultExercise4 = document.querySelector('#result-4');
+
+buttonExercise4.addEventListener('click', () => {
+    const input = 5;
+    const result = createArrayFromOneToN(input);
+
+    resultExercise4.textContent = JSON.stringify(result);
+});
