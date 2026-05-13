@@ -47,6 +47,7 @@ ejercicios-metodos-array-js/
 │
 └── styles/
     └── styles.css
+````
 
 ## Cómo ejecutar el proyecto
 
@@ -87,3 +88,4 @@ También me ayudó a reforzar la diferencia entre métodos que modifican el arra
 ## Autora
 
 Magalí Suárez
+
