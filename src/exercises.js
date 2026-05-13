@@ -34,3 +34,14 @@ function findUniqueNumber(array) {
     // porque eso significa que aparece una sola vez en el arreglo.
     return array.find((number) => array.indexOf(number) === array.lastIndexOf(number));
 }
+
+
+//FUNCION PARA EL SEXTO 
+function minSum(array) {
+    // Ordenamos una copia del arreglo de menor a mayor y sumamos los dos primeros.
+    const sortedArray = array.slice().sort((a,b) => a-b);
+
+    return sortedArray[0] + sortedArray [1];
+}
+
+//FUN

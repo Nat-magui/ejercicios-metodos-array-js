@@ -61,3 +61,14 @@ buttonExercise5.addEventListener('click', () => {
 
     resultExercise5.textContent = JSON.stringify(result);
 });
+
+//EJERCICIO 6, NO TERMINO MAS
+const buttonExercise6 = document.querySelector('#btn-exercise-6');
+const resultExercise6 = document.querySelector('#result-6');
+
+buttonExercise6.addEventListener('click', () =>{
+    const input = [7, 4, 2, 3];
+    const result = minSum(input);
+
+    resultExercise6.textContent = JSON.stringify(result);
+});
