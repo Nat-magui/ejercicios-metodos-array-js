@@ -39,9 +39,33 @@ function findUniqueNumber(array) {
 //FUNCION PARA EL SEXTO 
 function minSum(array) {
     // Ordenamos una copia del arreglo de menor a mayor y sumamos los dos primeros.
-    const sortedArray = array.slice().sort((a,b) => a-b);
+    const sortedArray = array.slice().sort((a, b) => a - b);
 
-    return sortedArray[0] + sortedArray [1];
+    return sortedArray[0] + sortedArray[1];
 }
 
-//FUN
+//FUNCION PARA EL SEPTIMO, NO SE TERMINA MAAAS
+function maxAdjacentElementsProduct(array) {
+    // Recorremos el arreglo multiplicando cada numero por el siguiente.
+    let maxProduct = array[0] * array[1];
+
+    for (let i = 1; i < array.length - 1; i++) {
+        const currentProduct = array[i] * array[i + 1];
+        if (currentProduct > maxProduct) {
+            maxProduct = currentProduct;
+        }
+    }
+    return maxProduct;
+}
+
+// AL FIN TERMINAMOS!
+function warnTheSheep(array) {
+    //buscamos la posicion del lobo dentro del arrat
+    const wolfIndex = array.indexOf('wolf');
+
+    if (wolfIndex === array.length - 1) {
+        return 'No sigas comiendo ovejas!';
+    }
+    const sheepNumber = array.length - wolfIndex - 1;
+    return `Hey! Oveja numero ${sheepNumber}! El lobo esta cerca!`;
+}

@@ -72,3 +72,34 @@ buttonExercise6.addEventListener('click', () =>{
 
     resultExercise6.textContent = JSON.stringify(result);
 });
+
+//EJERCICIO 7
+const buttonExercise7 = document.querySelector('#btn-exercise-7');
+const resultExercise7 = document.querySelector('#result-7');
+
+buttonExercise7.addEventListener('click',()=>{
+    const input = [9, 5, 10, 2, 24, -1];
+    const result = maxAdjacentElementsProduct(input);
+
+    resultExercise7.textContent = JSON.stringify(result);
+});
+
+//ULTIMO
+// VAMOS CON EL EJERCICIO 8
+const buttonExercise8Danger = document.querySelector('#btn-exercise-8-danger');
+const buttonExercise8Safe = document.querySelector('#btn-exercise-8-safe');
+const resultExercise8 = document.querySelector('#result-8');
+
+buttonExercise8Danger.addEventListener('click', () => {
+  const input = ['sheep', 'sheep', 'sheep', 'wolf', 'sheep'];
+  const result = warnTheSheep(input);
+
+  resultExercise8.textContent = result;
+});
+
+buttonExercise8Safe.addEventListener('click', () => {
+  const input = ['sheep', 'sheep', 'sheep', 'wolf'];
+  const result = warnTheSheep(input);
+
+  resultExercise8.textContent = result;
+});
