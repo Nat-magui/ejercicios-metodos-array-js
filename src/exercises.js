@@ -27,3 +27,10 @@ function createArrayFromOneToN(number) {
     }
     return result;
 }
+
+//FUNCION PARA EL QUINTO EJERCICIO
+function findUniqueNumber(array) {
+    // Buscamos el numero cuya primera posicion y ultima posicion sean iguales,
+    // porque eso significa que aparece una sola vez en el arreglo.
+    return array.find((number) => array.indexOf(number) === array.lastIndexOf(number));
+}

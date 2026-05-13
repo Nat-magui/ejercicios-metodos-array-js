@@ -50,3 +50,14 @@ buttonExercise4.addEventListener('click', () => {
 
     resultExercise4.textContent = JSON.stringify(result);
 });
+
+//LET'S GO WITH NUMBER FIVEEEE yei
+const buttonExercise5 = document.querySelector('#btn-exercise-5');
+const resultExercise5 = document.querySelector('#result-5');
+
+buttonExercise5.addEventListener('click', () => {
+    const input = [1, 1, 1, 1, 1, 2, 1, 1, 1];
+    const result = findUniqueNumber(input);
+
+    resultExercise5.textContent = JSON.stringify(result);
+});
