@@ -58,6 +58,12 @@ button:focus {
   outline-offset: 2px;
 }
 
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 pre {
   margin-top: 16px;
   padding: 16px;
