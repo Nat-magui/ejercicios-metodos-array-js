@@ -4,6 +4,12 @@ Proyecto práctico desarrollado con **HTML**, **CSS** y **JavaScript** para reso
 
 La idea del proyecto es presentar cada ejercicio en una página web simple e interactiva, donde se puede ejecutar cada solución y visualizar el resultado en pantalla.
 
+## Demo
+
+Podés ver el proyecto publicado en GitHub Pages:
+
+https://nat-magui.github.io/ejercicios-metodos-array-js/
+
 ## Objetivo
 
 Practicar conceptos fundamentales de JavaScript, especialmente:
